@@ -1,0 +1,16 @@
+
+escribir("Dame una hora")    
+hora = leer() 
+
+mientras ( hora > 24 || hora < 1)
+    escribir("Dame una hora entre 1 y 24")
+    hora = leer()     
+fin
+
+si (hora < 12) 
+    escribir("Buenos dias") 
+osi ( hora > 18) 
+    escribir("Buenas noches") 
+sino
+    escribir('Buenas tardes')
+fin
